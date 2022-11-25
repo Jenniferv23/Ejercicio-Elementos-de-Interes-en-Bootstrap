@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicio elemnetos Botstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container1 px-4">
+        <div class="bg-light p-5 rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                <p class="col-md-6 fs-a">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+                <button type="button" 
+                  class="btn btn-primary btn-lg" 
+                  data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Example button
+                </button>
+                <div class="modal fade" data-bs-backdrop="static" id="exampleModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <h4 class="modal-header">Header</h4>
+                      <div class="modal-body">Body</div>
+                      <div class="modal-footer">
+                        <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button class="btn btn-primary">Aceptar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="container2 py-4 px-4">
+      <form action="">
+        <div class="mb-3 w-50">
+          <label for="exampleInputText" class="form-label">Introduce tu nombre</label>
+          <input type="text" class="form-control" id="exampleInputText" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3 w-50">
+          <label for="exampleInputPassword1" class="form-label">Telèfono</label>
+          <input type="number" class="form-control" id="exampleInputNumber" placeholder="Tu nùmero">
+        </div>
+        <div class="mb-3 w-50">
+          <label for="exampleInputMensaje" class="form-label">Escribe un mensaje</label>
+          <input type="textaera" class="form-control" id="exampleInputMensaje" placeholder="Tu mensaje">
+        </div>   
+      </form>
+    </div>
+    <div class="container3">
+      <div class="card" style="width: 20rem">
+        <img src="/Ejercicio_Elementos_Bootstrap/source-code-583537_960_720.jpg" class="card-img-top" alt="...">
+        <div class="card-header">
+            Este es el encabezado
+        </div>      
+        <div class="card-body">
+            <h5 class="card-title">JENNIFER VANEGAS LEAL</h5>
+            <p class="card-text">Descripciòn</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Desarrolladora Web</li>
+                <li class="list-group-item">Constante aprendizaje</li>
+                <li class="list-group-item">Dispuesta a obtener nuevos retos</li>
+            </ul>
+        </div>
+        <div class="card-footer">
+            jenvanle@gmail.com
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
